@@ -47,8 +47,8 @@
   align-items: center;
   padding-inline: 3%;
   background-color: #f6f6f6;
-  font-family: 'Pixelify Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
+  transition: top 0.3s;
 }
 
 .nav {
@@ -76,11 +76,16 @@ hr.solid {
 .title {
   text-align: center;
   padding-top: 3%;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .homepage {
   text-align: center;
   padding-inline: 25%;
+  padding-bottom: 5%;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 img {
@@ -117,6 +122,8 @@ button:hover {
   padding-top: 12px;
   padding-inline: 15%;
   padding-bottom: 5%;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .email {
@@ -124,6 +131,9 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-bottom: 5%;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 input[type=text], select, textarea {
