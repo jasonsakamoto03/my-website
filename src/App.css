@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #f6f6f6;
+  font-family: 'Roboto', sans-serif;
+  padding: 20%;
 }
 
 .App-logo {
@@ -35,4 +38,130 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bar {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 3%;
+  background-color: #f6f6f6;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 15px;
+}
+
+a {
+  color: black;
+}
+
+.nav li a:hover {
+  color: #338BA8;
+}
+
+hr.solid {
+  border-top: 2px solid #bbb;
+  background-color: #f6f6f6;
+}
+
+.title {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.homepage {
+  text-align: center;
+  padding-inline: 25%;
+}
+
+img {
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+button {
+  background-color: #6d94d1; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #338BA8;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about {
+  padding-top: 12px;
+  padding-inline: 15%;
+  padding-bottom: 5%;
+}
+
+.email {
+  padding-inline: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 3px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 3px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=message], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 3px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 2px; /* Add a top margin */
+  margin-bottom: 20px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: 'Roboto', sans-serif;
+}
+
+label {
+  text-align: center;
 }
