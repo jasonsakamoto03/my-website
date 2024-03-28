@@ -61,7 +61,7 @@ function App() {
                 <p>This project is a program that manages, analyzes, and models NFL player data with the intention of predicting fantasy football success. Uses machine learning and numerical methods such as linear regression to identify trends in data and better understand the impacts of certain statistics.</p>
             </div>
         </div>
-        <div className="title">
+        <div className="title" id='contact'>
                 <h1>Contact</h1>
             </div>
         <ContactUs></ContactUs>
