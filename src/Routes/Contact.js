@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div>
             <Navbar />
-            <div className="title">
+            <div className="title" id="contact">
                 <h1>Contact</h1>
             </div>
             <ContactUs></ContactUs>
