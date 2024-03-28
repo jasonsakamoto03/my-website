@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.c77bee49.css",
-    "main.js": "/my-website/static/js/main.65572318.js",
-    "static/js/453.195b869a.chunk.js": "/my-website/static/js/453.195b869a.chunk.js",
-    "static/media/pfp.jpeg": "/my-website/static/media/pfp.1931d218e84a5044fefa.jpeg",
-    "static/media/Resume_Jason_Sakamoto.pdf": "/my-website/static/media/Resume_Jason_Sakamoto.f5a636621a4e295cfce7.pdf",
-    "index.html": "/my-website/index.html",
-    "main.c77bee49.css.map": "/my-website/static/css/main.c77bee49.css.map",
-    "main.65572318.js.map": "/my-website/static/js/main.65572318.js.map",
-    "453.195b869a.chunk.js.map": "/my-website/static/js/453.195b869a.chunk.js.map"
+    "main.css": "/static/css/main.c77bee49.css",
+    "main.js": "/static/js/main.5f13af18.js",
+    "static/js/453.195b869a.chunk.js": "/static/js/453.195b869a.chunk.js",
+    "static/media/pfp.jpeg": "/static/media/pfp.1931d218e84a5044fefa.jpeg",
+    "static/media/Resume_Jason_Sakamoto.pdf": "/static/media/Resume_Jason_Sakamoto.f5a636621a4e295cfce7.pdf",
+    "index.html": "/index.html",
+    "main.c77bee49.css.map": "/static/css/main.c77bee49.css.map",
+    "main.5f13af18.js.map": "/static/js/main.5f13af18.js.map",
+    "453.195b869a.chunk.js.map": "/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c77bee49.css",
-    "static/js/main.65572318.js"
+    "static/js/main.5f13af18.js"
   ]
 }
