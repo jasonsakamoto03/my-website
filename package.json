@@ -1,5 +1,5 @@
 {
-  "homepage": "https://jasonsakamoto03.github.io/my-website/",
+  "homepage": "https://jasonsakamoto03.github.io/my-website",
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
@@ -24,7 +24,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": [
